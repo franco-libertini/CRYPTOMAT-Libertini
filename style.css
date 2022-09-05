@@ -6,3 +6,26 @@
     position: relative;
     margin-right: 15px;
 }
+body
+{
+animation-name: intro_pag;
+animation-fill-mode:forwards;
+animation-duration: 3s;
+overflow: hidden;
+animation-iteration-count: 1
+}
+@keyframes intro_pag
+{
+0%
+{
+    opacity: 0%;
+}
+50%
+{
+    opacity: 70%;
+}
+100%
+{
+    opacity: 100%;
+}
+}
