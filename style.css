@@ -3,11 +3,11 @@ body
 background-image: url(https://images.unsplash.com/photo-1467173572719-f14b9fb86e5f?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=1199&h=799&q=80);
 image-rendering: optimizeQuality;
 background-repeat:no-repeat;
-background-size:auto;
+background-size:cover;
 margin: 0;
 animation-name: intro_pag;
 animation-fill-mode:forwards;
-animation-duration: 3s;
+animation-duration: 90ms;
 overflow-x: hidden;
 animation-iteration-count: 1
 }
@@ -28,7 +28,56 @@ footer
 opacity: 90%;    
 }
 
+.grid
+{
+    display: grid;
+    grid-template-areas: 
+    "imagen texto "
+    ;
+    margin-top: 100px;
+    background-image: linear-gradient(#8f8888cf,#696868);
+    border-radius: 15px;
+    border-top-left-radius:15px ;
+}
+.imagen
+{
+    animation-name: imagen;
+    animation-fill-mode:forwards;
+    animation-duration: 60s;
+    overflow-x: hidden;
+    animation-iteration-count: infinite ;
+    grid-area: imagen;
+    height: 600px;
+    width: 600px;
+    border-top-left-radius:15px ;
+}
+.texto
+{
+    grid-area: texto;
 
+}
+.texto p
+{
+    padding-left: 40px;
+    font-size: xx-large;
+}
+.cita
+{
+    animation-name: cita;
+    animation-fill-mode:forwards;
+    animation-duration: 20s;
+    overflow-x: hidden;
+    animation-iteration-count: 1 
+}
+.animacion
+{
+    margin-top: 50px;
+    animation-name: animacion;
+    animation-fill-mode:both;
+    animation-duration:40s;
+    overflow-x: hidden;
+    animation-iteration-count:infinite 
+}
 
 
 @keyframes intro_pag
@@ -45,6 +94,62 @@ opacity: 90%;
 {
     opacity: 100%;
 }
+}
+@keyframes cita
+{
+    0%
+    {
+        opacity: 5%;
+    }
+    20%
+    {
+        opacity: 20%;
+    }
+    35%
+    {
+        opacity: 100%;
+    }
+    50%
+    {
+        opacity: 85%;
+    }
+    100%
+    {
+        opacity: 0%;
+    }
+}
+@keyframes imagen
+{
+    0%
+    {
+        translate: 0px 0px;
+    }
+    100%
+    {
+        translate: 0px 700px ;
+    }
+}
+@keyframes animacion
+{
+    0%
+    {
+        
+        position: absolute;
+        right: 0%;
+
+    }
+    50%
+    {
+       position: absolute;
+       right: 79%;
+       rotate: 180deg;
+    }
+    100%
+    {
+        position: absolute;
+        right: 0%;
+        rotate: 360deg;
+    }
 }
 
 @media (max-width:600px)
