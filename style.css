@@ -1,4 +1,20 @@
-
+body
+{
+background-image: url(https://images.unsplash.com/photo-1467173572719-f14b9fb86e5f?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=1199&h=799&q=80);
+image-rendering: optimizeQuality;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0;
+animation-name: intro_pag;
+animation-fill-mode:forwards;
+animation-duration: 3s;
+overflow-x: hidden;
+animation-iteration-count: 1
+}
+header
+{
+opacity: 90%;    
+}
 .header_img
 {
     height: 40px;
@@ -6,15 +22,12 @@
     position: relative;
     margin-right: 15px;
 }
-body
+footer
 {
-padding-bottom: 70px;
-animation-name: intro_pag;
-animation-fill-mode:forwards;
-animation-duration: 3s;
-overflow: hidden;
-animation-iteration-count: 1
+opacity: 90%;    
 }
+
+
 
 @keyframes intro_pag
 {
