@@ -2,8 +2,8 @@ body
 {
 background-image: url(https://images.unsplash.com/photo-1467173572719-f14b9fb86e5f?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=1199&h=799&q=80);
 image-rendering: optimizeQuality;
-background-repeat: no-repeat;
-background-size: cover;
+background-repeat:no-repeat;
+background-size:auto;
 margin: 0;
 animation-name: intro_pag;
 animation-fill-mode:forwards;
@@ -24,8 +24,10 @@ opacity: 90%;
 }
 footer
 {
+
 opacity: 90%;    
 }
+
 
 
 
@@ -43,4 +45,12 @@ opacity: 90%;
 {
     opacity: 100%;
 }
+}
+
+@media (max-width:600px)
+{
+    footer
+    {
+        height: 85px;
+    }
 }
