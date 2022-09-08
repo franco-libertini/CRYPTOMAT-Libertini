@@ -194,6 +194,8 @@ opacity: 90%;
     width: fit-content;
     justify-self: center;
 }
+
+
 /*login page*/
 .login-main
 {
@@ -209,8 +211,19 @@ opacity: 90%;
 /* trade page*/
 .form-trade
 {
-    width:600px;
+    animation-name: intro-trade;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    width: 650px;
+    transform: translateX(700px);
     
+}
+/*subscribe page*/
+.subscribe-form
+{
+    width: 30vw;
+
 }
 
 @keyframes intro_pag
@@ -348,6 +361,12 @@ opacity: 90%;
     100%   {translate: 95px 21px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
 }
     
+@keyframes intro-trade
+{
+    0%{opacity: 0%;}
+    
+    100%{opacity: 90%;}
+}
 
 @media (max-width:600px)
 {
