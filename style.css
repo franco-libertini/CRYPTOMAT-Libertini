@@ -41,6 +41,16 @@ opacity: 90%;
     border-radius: 15px;
     border-top-left-radius:15px ;
 }
+.carusel-img
+{
+    height: 500px;
+    width: 500px;
+}
+.item-menu1
+{
+
+    width: 150px;
+}
 .img-txt
 {
     display: flex;
@@ -180,6 +190,11 @@ opacity: 90%;
 {
 
    
+}
+.lista-final
+{
+    width: fit-content;
+    justify-self: center;
 }
 
 @keyframes intro_pag
