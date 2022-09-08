@@ -1,8 +1,10 @@
 body
 {
+    width: 100vw;
+    height: 100vh;
 background-image: url(./assets/bk1.jpg);
 image-rendering: optimizeQuality;
-background-repeat:no-repeat;
+background-repeat:repeat;
 background-size:cover;
 background-position: center;
 margin: 0;
@@ -186,15 +188,29 @@ opacity: 90%;
 {
         margin-right: 20px;
 }
-.crypto-boton
-{
 
-   
-}
 .lista-final
 {
     width: fit-content;
     justify-self: center;
+}
+/*login page*/
+.login-main
+{
+    height: 100vh;
+
+}
+.login
+{
+    
+    width: 50vw;
+
+}
+/* trade page*/
+.form-trade
+{
+    width:600px;
+    
 }
 
 @keyframes intro_pag
