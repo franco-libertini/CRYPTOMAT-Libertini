@@ -1,9 +1,10 @@
 body
 {
-background-image: url(https://images.unsplash.com/photo-1467173572719-f14b9fb86e5f?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=1199&h=799&q=80);
+background-image: url(./assets/bk1.jpg);
 image-rendering: optimizeQuality;
 background-repeat:no-repeat;
 background-size:cover;
+background-position: center;
 margin: 0;
 animation-name: intro_pag;
 animation-fill-mode:forwards;
@@ -39,45 +40,40 @@ opacity: 90%;
     border-radius: 15px;
     border-top-left-radius:15px ;
 }
-.imagen
+.crypto-contenedor
 {
-    animation-name: imagen;
-    animation-fill-mode:forwards;
-    animation-duration: 60s;
-    overflow-x: hidden;
-    animation-iteration-count: infinite ;
-    grid-area: imagen;
-    height: 600px;
-    width: 600px;
-    border-top-left-radius:15px ;
+    display: flex;
+    border-bottom: #696868;
 }
-.texto
+.crypto-valor-actual
 {
-    grid-area: texto;
+    color: greenyellow;
+    font-size:x-small;
+}
+.crypto-alza-baja
+{
+    color: green;
+}
+.crypto-grafico
+{
 
 }
-.texto p
+.crypto-grafico p
 {
-    padding-left: 40px;
-    font-size: xx-large;
+    border: 3px;
+    color: green;
+    border-color: green;
 }
-.cita
-{
-    animation-name: cita;
-    animation-fill-mode:forwards;
-    animation-duration: 20s;
-    overflow-x: hidden;
-    animation-iteration-count: 1 
-}
-.animacion
-{
-    margin-top: 50px;
-    animation-name: animacion;
-    animation-fill-mode:both;
-    animation-duration:40s;
-    overflow-x: hidden;
-    animation-iteration-count:infinite 
-}
+
+
+
+
+
+
+
+
+
+
 
 
 @keyframes intro_pag
