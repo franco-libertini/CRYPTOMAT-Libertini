@@ -1,3 +1,3 @@
 # franco-libertini-desafio-github-y-bootstrap
 franco-libertini/desafio-github-y-bootstrap
-index con transicion y animacion y paginas con uso extenso de bootsrap
+pagina maquetada con bootstrap y editada con css ;la tematica es de un sitio de compra venta de cryptos.
