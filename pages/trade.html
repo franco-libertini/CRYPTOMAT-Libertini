@@ -57,17 +57,58 @@
 
 
     <!-- main -->
+              <!-- notas para futuro, mejorar wl display, no me parece mal la lista pero no me gusta donde esta posicionado el formulario , hay que ver como mejorarlo-->
 
-
-    <main >
+    <main class="row d-flex justify-content-center" >
       <div class="lista-final col ms-5">
-        <h2 class="mt-5 mb-4 display-5 text-light">Es muy sencillo: <i class="boton-lista bi bi-caret-right-square btn btn-primary"type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample"></i>          <ol class="list-group list-group-numbered collapse collapse-horizontal" id="collapseWidthExample">
-          <li class="list-group-item lead">Selecciona las cryptos que sientas van a ser las mas favorables.</li>
-          <li class="list-group-item lead">Predispone los valores para la compra/venta automatica.</li>
-          <li class="list-group-item lead">Ingresa tus datos de facturacion.</li>
-          <li class="list-group-item lead">Por ultimo relajate con la certeza de que nuestro algoritmo vende cuando es necesario y compra cuando mas te conviene.</li>
+        <h2 class="mt-5 mb-4 display-5 text-light">Es muy sencillo: 
+          <ol class="list-trade list-group list-group-numbered " >
+            <!----------------------->
+            <li class="list-group-item lead">
+              <p class="shadow p-3">
+                <a class="btn " data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Selecciona las cryptos que sientas van a ser las mas favorables.
+                </a>
+              </p>
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body fw-semibold font-monospace">
+                  Selecciona las cryptos que creas van a ser las mas redituables, nuestro algoritmo va a asegurarse de tomar las mejores decisiones para asegurarse de que tu inversion se mantenga o crezca
+                </div>
+              </div>
+            </li>
+              <!----------------------->
+              <li class="list-group-item lead ">
+                <p class="shadow p-3">
+                  <a class="btn " data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Predispone los valores para la compra/venta automatica.
+                  </a>
+                </p>
+                <div class="collapse" id="collapseExample1">
+                  <div class="card card-body fw-semibold font-monospace">
+                    Todo funciona en base a tus predisposiciones, nuestro sistema se asegura de tener limites establecidos por los usuarios, de modo que si crees que una crypto va a subir y no te asusta tener perdidas temporales, puedes setear los valores de venta en el punto que te parezca.
+                 </div>
+                </div>
+              </li>
+              <!----------------------->
+              <li class="list-group-item lead">
+                <p class="shadow p-3">
+                  <a class="btn " data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Ingresa tus datos de facturacion.
+                  </a>
+                </p>
+                <div class="collapse" id="collapseExample2">
+                  <div class="card card-body fw-semibold font-monospace">
+                    Nuestra pagina cuenta con el respaldo de los bancos de uso cotidiano mas grandes del planeta, con tu tarjeta ya sea de debito o de credito puedes setear un monto diario de inversion para seguir comprando cryptos o puedes basarte en inversiones individuales de cualquier te damos la garantia de que tu inversion nunca se va a perder.
+                  </div>
+                </div>
+              </li>
+              <!----------------------->
+          <li class="list-group-item lead shadow p-3 ">Por ultimo relajate con la certeza de que nuestro algoritmo vende cuando es necesario y compra cuando mas te conviene.</li>
         </ol></i></h2>
       </div>
+
+
+      <section class="col-md-6 mt-5">
       <form class="form-trade card ms-5 text-bg-dark">
         <div class="row mb-3 mt-3 ">
           <label for="inputusername" class="col-sm-2 col-form-label">usuario</label>
@@ -157,7 +198,7 @@
         </div>
         <button type="submit" class="btn btn-primary">invertir</button>
       </form>
-
+    </section>
 
 
    </main>

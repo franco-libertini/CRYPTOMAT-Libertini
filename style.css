@@ -43,10 +43,23 @@ opacity: 90%;
     border-radius: 15px;
     border-top-left-radius:15px ;
 }
+
+
+
+.boton-masinfo
+{
+
+height: 50px;
+width: 250px;
+
+}
+
+
+
 .carusel-img
 {
-    height: 500px;
-    width: 500px;
+    height: fit-content;
+    width: fit-content;
 }
 .item-menu1
 {
@@ -197,18 +210,21 @@ opacity: 90%;
 
 
 /*login page*/
-.login-main
-{
-    height: 100vh;
 
-}
 .login
 {
-    
+    animation-name: intro-trade;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
     width: 50vw;
 
 }
 /* trade page*/
+.list-trade
+{
+    opacity: 85%;
+}
 .form-trade
 {
     animation-name: intro-trade;
@@ -216,7 +232,7 @@ opacity: 90%;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
     width: 650px;
-    transform: translateX(700px);
+    /* transform: translateX(700px); */
     
 }
 /*subscribe page*/
