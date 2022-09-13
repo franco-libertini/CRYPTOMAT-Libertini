@@ -256,13 +256,13 @@ filter: invert(100%);
 
 
 /*about page*/
-.item-about
+.menu-about
 {
     display: inline-block;
     position: relative;
     color: #0087ca;
 }
-.item-about:after {
+.menu-about:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -275,14 +275,55 @@ filter: invert(100%);
     transition: transform 0.50s ease-out;
   }
   
-  .item-about:hover:after 
+  .menu-about:hover:after 
     {  
     transform: scaleX(1);
     transform-origin: bottom left;
     }
-  
 
+    .item-about
+    {
+        display:none;
+       z-index: -1;
+    }
 
+    #Nuestra-Historia:target
+    {
+       
+        z-index: 1;
+      display: block;
+      animation-name: about-item;
+      animation-duration: 2s;
+      animation-fill-mode: forwards;
+     
+    }
+    #FAQ:target
+    {
+        position: absolute;
+        z-index: 1;
+        display: block;
+        animation-name: about-item;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+    #Requisitos:target
+    {
+        position: absolute;
+        z-index: 1;
+        display: block;
+        animation-name: about-item;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+    #Donaciones:target
+    {
+        position: absolute;
+        z-index: 1;
+        display: block;
+        animation-name: about-item;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
 
 
 
@@ -310,7 +351,11 @@ filter: invert(100%);
     }
 
 }
-
+@keyframes about-item
+{
+    0%{opacity: 0%;}
+    100%{opacity: 100%;transition: ease-in;translate: 10px;}
+}
 
 
 /*NOTA : PREGUNTAR COMOM SELECCIONAR Y SACAR MULTIPLES SECCIONES DE CODIGO AL MISMO TIEMPO*/
@@ -439,4 +484,12 @@ filter: invert(100%);
     {
         height: 85px;
     }
+
+}
+@media (max-width:426px)
+{
+    .Nuestra-Historia-foto
+    {
+    display: none;
+    }    
 }
