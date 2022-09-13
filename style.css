@@ -221,7 +221,18 @@ width: 250px;
     width: 50vw;
 
 }
+.login-img
+{
+
+filter: invert(100%);
+
+}
+
 /* trade page*/
+.main-trade
+{
+    height: 100vh;
+}
 .list-trade
 {
     opacity: 85%;
@@ -242,6 +253,42 @@ width: 250px;
     width: 30vw;
 
 }
+
+
+/*about page*/
+.item-about
+{
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+}
+.item-about:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.50s ease-out;
+  }
+  
+  .item-about:hover:after 
+    {  
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    }
+  
+
+
+
+
+
+
+
+
 
 @keyframes intro_pag
 {
@@ -384,6 +431,7 @@ width: 250px;
     
     100%{opacity: 90%;}
 }
+
 
 @media (max-width:600px)
 {
