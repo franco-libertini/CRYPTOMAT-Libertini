@@ -491,5 +491,16 @@ filter: invert(100%);
     .Nuestra-Historia-foto
     {
     display: none;
+    }  
+    .lista-final
+    {
+        display: none;
+    }  
+}
+@media (max-width:321) 
+{
+    .login-main
+    {
+        font-size: 1vw;
     }    
 }
