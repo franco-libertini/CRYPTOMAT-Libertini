@@ -1,3 +1,3 @@
-# franco-libertini-desafio-github-y-bootstrap
-franco-libertini/desafio-github-y-bootstrap
-pagina maquetada con bootstrap y editada con css ;la tematica es de un sitio de compra venta de cryptos.
+# desafio-final-2/Libertini
+desafio-final-2/Libertini
+la tematica es de un sitio de compra venta de cryptos.
