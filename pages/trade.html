@@ -74,11 +74,13 @@
     <!-- main -->
               <!-- notas para futuro, mejorar wl display, no me parece mal la lista pero no me gusta donde esta posicionado el formulario , hay que ver como mejorarlo-->
 
-    <main class="main-trade row d-flex justify-content-center container-fluid" >
-      <div class="d-flex">
+    <main class="main-trade justify-content-center container-fluid col-6 mb-5" >
+  <div class="col">
       <div class="lista-final row ms-5">
         <h2 class="mt-5 mb-4 display-5 text-light">Es muy sencillo: 
-          <ol class="list-trade list-group list-group-numbered " >
+          
+          <div class="col">
+          <ol class="row list-trade list-group list-group-numbered " >
             <!----------------------->
             <li class="list-group-item lead">
               <p class="shadow p-3">
@@ -124,34 +126,34 @@
       </div>
 
 
-    <section class="row mt-5 container-fluid">
-        <form class="form-trade card ms-5 text-bg-dark">
+      <section class="row mt-5 container-fluid">
+        <form class="form-trade card ms-5 text-bg-dark container-fluid">
         <div class="row mb-3 mt-3 ">
-          <label for="inputusername" class="col-sm-2 col-form-label">usuario</label>
+          <label for="inputusername" class="col-form-label">usuario</label>
           <div class="col-sm-10">
             <input type="user" class="form-control" id="inputusername">
           </div>
         </div>
         <div class="row mb-3">
-          <label for="inputPassword3" class="col-sm-2 col-form-label">contraseña</label>
+          <label for="inputPassword3" class="col-form-label">contraseña</label>
           <div class="col-sm-10">
             <input type="password" class="form-control" id="inputPassword3">
           </div>
         </div>
         <div class="row mb-3">
-          <label for="inputPassword3" class="col-sm-2 col-form-label lead" ></label>
+          <label for="inputPassword3" class="col-form-label lead" ></label>
           <div class="col-sm-10">
             <input type="number" class="form-control" id="inputPassword3" placeholder="numero de tarjeta de credito">
           </div>
         </div>
         <div class="row mb-3">
-          <label for="imputdate" class="col-sm-2 col-form-label lead" >vencimiento</label>
+          <label for="imputdate" class="col-form-label lead" >vencimiento</label>
           <div class="col-sm-10">
             <input type="date" class="form-control" id="imputdate" >
           </div>
         </div>
         <div class="row mb-3">
-          <label for="inputPassword3" class="col-sm-2 col-form-label" ></label>
+          <label for="inputPassword3" class="col-form-label" ></label>
           <div class="col-sm-10">
             <input type="password" type="number" class="form-control" id="inputPassword3" placeholder="pin de seguridad">
           </div>
@@ -168,13 +170,13 @@
           
         </div>
         <div class="row ">
-          <label for="imputdate" class="col-sm-2 col-form-label lead" >desde</label>
+          <label for="imputdate" class="col-form-label lead" >desde</label>
           <div class="col-sm-10">
             <input type="date" class="form-control" id="imputdate" >
           </div>
         </div>
         <div class="row mb-1">
-          <label for="imputdate" class="col-sm-2 col-form-label lead" >hasta</label>
+          <label for="imputdate" class="col-form-label lead" >hasta</label>
           <div class="col-sm-10">
             <input type="date" class="form-control" id="imputdate" >
           </div>
@@ -185,7 +187,7 @@
           
         </div>
         <fieldset class="row mb-3">
-          <legend class="col-form-label col-sm-2 pt-0">duracion</legend>
+          <legend class="col-form-label  pt-0">duracion</legend>
           <div class="col-sm-10">
             <div class="form-check">
               <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
@@ -222,9 +224,9 @@
     <!--footer-->
 
 
-    <footer class="container-fluid bg-dark text-center text-light">
+    <footer class="position-relative container-fluid bg-dark text-center text-light">
 
-      <div class="container p-4">
+      <div class="container-fluid p-4">
 
         <section class="mb-4">
 
@@ -284,7 +286,7 @@
           </form>
         </section>
 
-        <section class="">
+        <section >
 
           <div class="row">
 
@@ -313,7 +315,7 @@
         <a class="text-white" href="https://getbootstrap.com/">getbootstrap.com</a>
       </div>
 
-    </footer>
+    
     </footer>
 </body>
 </html>

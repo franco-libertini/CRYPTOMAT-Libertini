@@ -229,10 +229,7 @@ filter: invert(100%);
 }
 
 /* trade page*/
-.main-trade
-{
-    height: 100vh;
-}
+
 .list-trade
 {
     opacity: 85%;
@@ -502,5 +499,6 @@ filter: invert(100%);
     .login-main
     {
         font-size: 1vw;
-    }    
+    } 
+    .form-trade div{ font-size:xx-small}   
 }
