@@ -25,61 +25,6 @@ header {
 footer {
   opacity: 90%; }
 
-.menu-about {
-  display: inline-block;
-  position: relative;
-  color: #0087ca; }
-  .menu-about:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #0087ca;
-    transform-origin: bottom right;
-    transition: transform 0.50s ease-out; }
-
-.menu-about:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left; }
-
-.item-about {
-  display: none;
-  z-index: -1; }
-
-#Nuestra-Historia:target {
-  z-index: 1;
-  display: block;
-  animation-name: about-item;
-  animation-duration: 2s;
-  animation-fill-mode: forwards; }
-
-#FAQ:target {
-  position: absolute;
-  z-index: 1;
-  display: block;
-  animation-name: about-item;
-  animation-duration: 1s;
-  animation-fill-mode: forwards; }
-
-#Requisitos:target {
-  position: absolute;
-  z-index: 1;
-  display: block;
-  animation-name: about-item;
-  animation-duration: 1s;
-  animation-fill-mode: forwards; }
-
-#Donaciones:target {
-  position: absolute;
-  z-index: 1;
-  display: block;
-  animation-name: about-item;
-  animation-duration: 1s;
-  animation-fill-mode: forwards; }
-
 .boton-masinfo {
   height: 50px;
   width: 250px; }
@@ -188,6 +133,61 @@ footer {
 .lista-final {
   width: fit-content;
   justify-self: center; }
+
+.menu-about {
+  display: inline-block;
+  position: relative;
+  color: #0087ca; }
+  .menu-about:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.50s ease-out; }
+
+.menu-about:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left; }
+
+.item-about {
+  display: none;
+  z-index: -1; }
+
+#Nuestra-Historia:target {
+  z-index: 1;
+  display: block;
+  animation-name: about-item;
+  animation-duration: 2s;
+  animation-fill-mode: forwards; }
+
+#FAQ:target {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  animation-name: about-item;
+  animation-duration: 1s;
+  animation-fill-mode: forwards; }
+
+#Requisitos:target {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  animation-name: about-item;
+  animation-duration: 1s;
+  animation-fill-mode: forwards; }
+
+#Donaciones:target {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  animation-name: about-item;
+  animation-duration: 1s;
+  animation-fill-mode: forwards; }
 
 .login {
   animation-name: intro-trade;
