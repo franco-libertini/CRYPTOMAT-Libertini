@@ -1,5 +1,5 @@
 
-body
+/* body
 {
     width: 100vw;
     height: 100vh;
@@ -31,21 +31,21 @@ footer
 {
 
 opacity: 90%;    
-}
+} */
 
-.grid
+/* .grid
 {
     display: grid;
     grid-template-areas: 
     "imagen texto "
     ;
     margin-top: 100px;
-    background-image: linear-gradient(#8f8888cf,#696868);
+    background-image: linear-gradient(#ff0000cf,#696868);
     border-radius: 15px;
     border-top-left-radius:15px ;
-}
+} */
 
-
+/* 
 
 .boton-masinfo
 {
@@ -201,18 +201,19 @@ width: 250px;
 .crypto-valor-total
 {
         margin-right: 20px;
-}
+} */
 
-.lista-final
+/* .lista-final
 {
     width: fit-content;
     justify-self: center;
-}
+    background-color: red;
+} */
 
 
 /*login page*/
 
-.login
+/* .login
 {
     animation-name: intro-trade;
     animation-duration: 4s;
@@ -226,11 +227,11 @@ width: 250px;
 
 filter: invert(100%);
 
-}
+} */
 
 /* trade page*/
 
-.list-trade
+/* .list-trade
 {
     opacity: 85%;
 }
@@ -241,19 +242,17 @@ filter: invert(100%);
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
     width: 650px;
-    /* transform: translateX(700px); */
-    
-}
+} */
 /*subscribe page*/
-.subscribe-form
+/* .subscribe-form
 {
     width: 30vw;
 
-}
+} */
 
 
 /*about page*/
-.menu-about
+/* .menu-about
 {
     display: inline-block;
     position: relative;
@@ -321,14 +320,14 @@ filter: invert(100%);
         animation-duration: 1s;
         animation-fill-mode: forwards;
     }
+ */
 
 
 
 
 
 
-
-@keyframes intro_pag
+/* @keyframes intro_pag
 {
 0%{opacity: 0%;}
 50%{opacity: 70%;}
@@ -347,16 +346,16 @@ filter: invert(100%);
         translate:0px
     }
 
-}
-@keyframes about-item
+} */
+/* @keyframes about-item
 {
     0%{opacity: 0%;}
     100%{opacity: 100%;transition: ease-in;translate: 10px;}
-}
+} */
 
 
 /*NOTA : PREGUNTAR COMOM SELECCIONAR Y SACAR MULTIPLES SECCIONES DE CODIGO AL MISMO TIEMPO*/
-@keyframes crypto-grafico-p-1
+/* @keyframes crypto-grafico-p-1
 {
     0%     {translate: 5px 9px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(20px 0px 0px green);}
     5%     {translate: 10px 5px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
@@ -472,18 +471,18 @@ filter: invert(100%);
     0%{opacity: 0%;}
     
     100%{opacity: 90%;}
-}
+} */
 
 
-@media (max-width:600px)
+/* @media (max-width:600px)
 {
     footer
     {
         height: 85px;
     }
 
-}
-@media (max-width:426px)
+} */
+/* @media (max-width:426px)
 {
     .Nuestra-Historia-foto
     {
@@ -493,12 +492,12 @@ filter: invert(100%);
     {
         display: none;
     }  
-}
-@media (max-width:321) 
+} */
+/* @media (max-width:321) 
 {
     .login-main
     {
         font-size: 1vw;
     } 
     .form-trade div{ font-size:xx-small}   
-}
+} */

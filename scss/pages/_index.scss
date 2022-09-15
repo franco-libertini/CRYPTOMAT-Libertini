@@ -1,0 +1,285 @@
+.boton-masinfo
+{
+
+height: 50px;
+width: 250px;
+
+}
+
+
+
+.carusel-img
+{
+    height: fit-content;
+    width: fit-content;
+}
+.item-menu1
+{
+
+    width: 150px;
+}
+.img-txt
+{
+    display: flex;
+    flex-direction: row;
+}
+.imagen-main
+{
+    
+    border-radius: 10px; 
+    border: 3px solid grey;
+    padding: 2px;
+    opacity: 50%;
+}
+.crpt-main
+{
+    background-color: #302b2bbd;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation-name: crpt-main;
+    animation-duration: 2s;
+}
+.crypto-contenedor
+{
+    justify-content: space-between;
+    margin-top: 45px;
+    display: flex;
+    border-bottom: 2px solid #696868;;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 20px;
+}
+.crypto-nombre
+{
+    margin-right: 20px;
+}
+.crypto-valor-actual
+{
+    color: greenyellow;
+    margin-right: 20px;
+}
+.crypto-alza-baja
+{
+    color: green;
+    margin-right: 20px;
+}
+.crypto-grafico
+{
+    margin-right: 20px;
+    height: 32px;
+    width: 115px;
+    background-color: #312e2eba;
+    border:1px dashed grey
+}
+.crypto-grafico-p-1
+{
+    
+    
+    width: 7px;
+    height: 7px;
+    border: 2px solid green;
+    color: green;
+    animation-name:crypto-grafico-p-1;
+    transition-delay: 0ms;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    
+}
+.crypto-grafico-p-2
+{
+    
+    
+    width: 7px;
+    height: 7px;
+    border: 2px solid green;
+    color: green;
+    animation-name:crypto-grafico-p-2;
+    transition-delay: 0ms;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    
+}
+.crypto-grafico-p-3
+{
+    
+    
+    width: 7px;
+    height: 7px;
+    border: 2px solid red;
+    color: red;
+    animation-name:crypto-grafico-p-3;
+    transition-delay: 0ms;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    
+}
+.crypto-grafico-p-4
+{
+    
+    
+    width: 7px;
+    height: 7px;
+    border: 2px solid green;
+    color: green;
+    animation-name:crypto-grafico-p-4;
+    transition-delay: 0ms;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    
+}
+.crypto-grafico-p-5
+{
+    
+    
+    width: 7px;
+    height: 7px;
+    border: 2px solid red;
+    color: red;
+    animation-name:crypto-grafico-p-5;
+    transition-delay: 0ms;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    
+}
+.crypto-valor-total
+{
+        margin-right: 20px;
+}
+
+.lista-final
+{
+    width: fit-content;
+    justify-self: center;
+}
+@keyframes crpt-main
+{
+    0%
+    {
+        opacity: 0%;
+        translate:1000px
+    }
+    100%
+    {
+        opacity: 100%;
+        translate:0px
+    }
+
+}
+@keyframes crypto-grafico-p-1
+{
+    0%     {translate: 5px 9px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(20px 0px 0px green);}
+    5%     {translate: 10px 5px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    10%    {translate: 15px 4px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    15%    {translate: 20px 11px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    20%    {translate: 25px 13px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    25%    {translate: 30px 10px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    30%    {translate: 35px 17px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    35%    {translate: 40px 19px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    40%    {translate: 45px 2px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    45%    {translate: 50px 4px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    50%    {translate: 55px 6px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    55%    {translate: 60px 20px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    60%    {translate: 65px 9px;;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    70%    {translate: 70px 1px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    75%    {translate: 75px 5px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    80%    {translate: 80px 7px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    85%    {translate: 85px 8px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    90%    {translate: 90px 11px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    100%   {translate: 95px 15px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+}
+@keyframes crypto-grafico-p-2
+{
+    0%     {translate: 5px 9px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    5%     {translate: 10px 3px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    10%    {translate: 15px 6px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    15%    {translate: 20px 10px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    20%    {translate: 25px 9px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    25%    {translate: 30px 5px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    30%    {translate: 35px 14px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    35%    {translate: 40px 16px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    40%    {translate: 45px 12px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    45%    {translate: 50px 14px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    50%    {translate: 55px 16px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    55%    {translate: 60px 20px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    60%    {translate: 65px 14px;;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    70%    {translate: 70px 7px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    75%    {translate: 75px 5px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    80%    {translate: 80px 7px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    85%    {translate: 85px 0px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    90%    {translate: 90px 1px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    100%   {translate: 95px 8px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+}
+@keyframes crypto-grafico-p-3
+{
+    0%     {translate: 5px 19px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    5%     {translate: 10px 15px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    10%    {translate: 15px 14px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    15%    {translate: 20px 11px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    20%    {translate: 25px 13px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    25%    {translate: 30px 10px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    30%    {translate: 35px 17px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    35%    {translate: 40px 19px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    40%    {translate: 45px 2px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    45%    {translate: 50px 4px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    50%    {translate: 55px 6px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    55%    {translate: 60px 20px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    60%    {translate: 65px 19px;;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    70%    {translate: 70px 11px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    75%    {translate: 75px 17px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    80%    {translate: 80px 13px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    85%    {translate: 85px 19px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    90%    {translate: 90px 11px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    100%   {translate: 95px 15px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+}
+@keyframes crypto-grafico-p-4
+{
+    0%     {translate: 5px 19px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    5%     {translate: 10px 15px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    10%    {translate: 15px 18px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    15%    {translate: 20px 17px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    20%    {translate: 25px 18px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    25%    {translate: 30px 18px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    30%    {translate: 35px 17px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    35%    {translate: 40px 19px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    40%    {translate: 45px 12px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    45%    {translate: 50px 18px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    50%    {translate: 55px 18px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    55%    {translate: 60px 20px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    60%    {translate: 65px 19px;;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    70%    {translate: 70px 15px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    75%    {translate: 75px 15px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    80%    {translate: 80px 17px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    85%    {translate: 85px 18px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    90%    {translate: 90px 11px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    100%   {translate: 95px 7px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+}
+@keyframes crypto-grafico-p-5
+{
+    0%     {translate: 5px 10px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    5%     {translate: 10px 9px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    10%    {translate: 15px 8px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    15%    {translate: 20px 7px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    20%    {translate: 25px 6px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    25%    {translate: 30px 5px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    30%    {translate: 35px 4px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    35%    {translate: 40px 3px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    40%    {translate: 45px 2px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    45%    {translate: 50px 1px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    50%    {translate: 55px 13px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    55%    {translate: 60px 14px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    60%    {translate: 65px 15px;;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    70%    {translate: 70px 16px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    75%    {translate: 75px 17px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    80%    {translate: 80px 18px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    85%    {translate: 85px 19px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    90%    {translate: 90px 20px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+    100%   {translate: 95px 21px;-webkit-filter: blur(1px);-webkit-filter:drop-shadow(50px 10px 10px green);}
+}
