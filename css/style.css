@@ -1,7 +1,7 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-image: url(/assets/bk1.jpg);
+  background-image: url("/assets/bk1.jpg");
   image-rendering: optimizeQuality;
   background-repeat: repeat;
   background-size: cover;
@@ -12,14 +12,6 @@ body {
   animation-duration: 300ms;
   overflow-x: hidden;
   animation-iteration-count: 1; }
-
-@keyframes intro_pag {
-  0% {
-    opacity: 0%; }
-  50% {
-    opacity: 70%; }
-  100% {
-    opacity: 100%; } }
 
 header {
   opacity: 90%; }
@@ -32,10 +24,6 @@ header {
 
 footer {
   opacity: 90%; }
-
-@media (max-width: 600px) {
-  footer {
-    height: 85px; } }
 
 .menu-about {
   display: inline-block;
@@ -91,18 +79,6 @@ footer {
   animation-name: about-item;
   animation-duration: 1s;
   animation-fill-mode: forwards; }
-
-@keyframes about-item {
-  0% {
-    opacity: 0%; }
-  100% {
-    opacity: 100%;
-    transition: ease-in;
-    translate: 10px; } }
-
-@media (max-width: 426px) {
-  .Nuestra-Historia-foto {
-    display: none; } }
 
 .boton-masinfo {
   height: 50px;
@@ -212,6 +188,41 @@ footer {
 .lista-final {
   width: fit-content;
   justify-self: center; }
+
+.login {
+  animation-name: intro-trade;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  width: 50vw; }
+  .login-img {
+    filter: invert(100%); }
+
+.subscribe-form {
+  width: 30vw; }
+
+.list-trade {
+  opacity: 85%; }
+
+.lista-final {
+  width: fit-content;
+  justify-self: center;
+  background-color: rgba(85, 84, 84, 0.616); }
+
+.form-trade {
+  animation-name: intro-trade;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  width: 650px; }
+
+@keyframes intro_pag {
+  0% {
+    opacity: 0%; }
+  50% {
+    opacity: 70%; }
+  100% {
+    opacity: 100%; } }
 
 @keyframes crpt-main {
   0% {
@@ -421,36 +432,13 @@ footer {
   100% {
     translate: 95px 21px; } }
 
-.login {
-  animation-name: intro-trade;
-  animation-duration: 4s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: 1;
-  width: 50vw; }
-  .login-img {
-    filter: invert(100%); }
-
-@media (max-width: 321) {
-  .login-main {
-    font-size: 1vw; } }
-
-.subscribe-form {
-  width: 30vw; }
-
-.list-trade {
-  opacity: 85%; }
-
-.lista-final {
-  width: fit-content;
-  justify-self: center;
-  background-color: rgba(85, 84, 84, 0.616); }
-
-.form-trade {
-  animation-name: intro-trade;
-  animation-duration: 4s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: 1;
-  width: 650px; }
+@keyframes about-item {
+  0% {
+    opacity: 0%; }
+  100% {
+    opacity: 100%;
+    transition: ease-in;
+    translate: 10px; } }
 
 @keyframes intro-trade {
   0% {
@@ -458,10 +446,18 @@ footer {
   100% {
     opacity: 90%; } }
 
+@media (max-width: 600px) {
+  footer {
+    height: 85px; } }
+
 @media (max-width: 426px) {
+  .Nuestra-Historia-foto {
+    display: none; }
   .lista-final {
     display: none; } }
 
 @media (max-width: 321) {
+  .login-main {
+    font-size: 1vw; }
   .form-trade div {
     font-size: xx-small; } }

@@ -64,15 +64,15 @@
         animation-duration: 1s;
         animation-fill-mode: forwards;
     }
-    @keyframes about-item
-    {
-        0%{opacity: 0%;}
-        100%{opacity: 100%;transition: ease-in;translate: 10px;}
-    }
-    @media (max-width:426px)
-    {
-        .Nuestra-Historia-foto
-        {
-        display: none;
-        }  
-    }    
+    // @keyframes about-item
+    // {
+    //     0%{opacity: 0%;}
+    //     100%{opacity: 100%;transition: ease-in;translate: 10px;}
+    // }
+    // @media (max-width:426px)
+    // {
+    //     .Nuestra-Historia-foto
+    //     {
+    //     display: none;
+    //     }  
+    // }    
