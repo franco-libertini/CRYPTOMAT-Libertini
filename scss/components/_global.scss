@@ -2,17 +2,17 @@ body
 {
 width: 100vw;
 height: 100vh;
-background-image: url("../assets/bk1.jpg");
+background-image: url("/assets/bk1.jpg");
 image-rendering: optimizeQuality;
 background-repeat:repeat;
 background-size:cover;
 background-position: center;
 margin: 0;
-animation-name: intro_pag;
-animation-fill-mode:forwards;
-animation-duration: 300ms;
-overflow-x: hidden;
-animation-iteration-count: 1
+//animation-name: intro_pag;
+//animation-fill-mode:forwards;
+//animation-duration: 300ms;
+//overflow-x: hidden;
+//animation-iteration-count: 1
 }
 // @keyframes intro_pag
 // {
