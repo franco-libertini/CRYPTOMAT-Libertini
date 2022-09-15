@@ -7,11 +7,12 @@ body {
   background-size: cover;
   background-position: center;
   margin: 0;
-  animation-name: intro_pag;
+  /*animation-name: intro_pag;
   animation-fill-mode: forwards;
   animation-duration: 300ms;
   overflow-x: hidden;
-  animation-iteration-count: 1; }
+  animation-iteration-count: 1;*/
+}
 
 header {
   opacity: 90%; }
