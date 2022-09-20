@@ -16,26 +16,8 @@ overflow-x: hidden;
 animation-iteration-count: 1
 }
 
-//extends
-.animation-valores-fijos
-{
-    width: 7px;
-    height: 7px;
-    transition-delay: 0ms;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite
-}
-.animation-positivo
-{
-    border: 2px solid green;
-    color: green;
-}
-.animation-negativo
-{
-    border: 2px solid red;
-    color: red;
-}
+// //extends
+
 .intro-trade
 {
     animation-name: intro-trade;
@@ -52,4 +34,25 @@ animation-iteration-count: 1
     animation-name: about-item;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+}
+
+//mixin
+
+@mixin dimension ($height, $width)
+
+{
+    height: $height;
+    width: $width;
+}
+
+@mixin animation ($color)
+{
+    width: 7px;
+    height: 7px;
+    transition-delay: 0ms;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    border: 2px solid $color;
+    color: $color;
 }

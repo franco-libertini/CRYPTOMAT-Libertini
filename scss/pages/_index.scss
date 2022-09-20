@@ -1,8 +1,6 @@
 .boton-masinfo
 {
-
-height: 50px;
-width: 250px;
+@include dimension(50px,250px);
 
 }
 
@@ -34,8 +32,7 @@ width: 250px;
 .crypto
 {
     background-color: #302b2bbd;
-    height: fit-content;
-    width: fit-content;
+    @include dimension(fit-content,fit-content);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,8 +44,7 @@ width: 250px;
         margin-top: 45px;
         display: flex;
         border-bottom: 2px solid #696868;;
-        width: fit-content;
-        height: fit-content;
+        @include dimension(fit-content,fit-content);
         margin-bottom: 20px; 
     }
     &-nombre
@@ -72,44 +68,39 @@ width: 250px;
     &-grafico
     {
         margin-right: 20px;
-        height: 32px;
-        width: 115px;
+        @include dimension(32px,115px);
         background-color: #312e2eba;
         border:1px dashed grey;
         &-p-1
+        
         {
-            @extend .animation-valores-fijos;
-            @extend .animation-positivo;
+            @include animation (green);
             animation-name:crypto-grafico-p-1;
 
-            
+
         }
         &-p-2
         {
-            @extend .animation-valores-fijos;
-            @extend .animation-positivo;
+            @include animation (green);
             animation-name:crypto-grafico-p-2;
 
         }
         &-p-3
         {
-            @extend .animation-valores-fijos;
-            @extend .animation-negativo;
+            @include animation (red);
             animation-name:crypto-grafico-p-3;
 
         }
         &-p-4
         {
-            @extend .animation-valores-fijos;
-            @extend .animation-positivo;
+            @include animation (green);
             animation-name:crypto-grafico-p-4;
 
 
         }
         &-p-5
         {
-            @extend .animation-valores-fijos;
-            @extend .animation-negativo;
+            @include animation (red);
             animation-name:crypto-grafico-p-5;
         }
     }
