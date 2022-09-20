@@ -1,5 +1,6 @@
 .menu-about
 {
+    @extend .intro-trade;
     display: inline-block;
     position: relative;
     color: #0087ca;
@@ -35,44 +36,18 @@
       animation-name: about-item;
       animation-duration: 2s;
       animation-fill-mode: forwards;
+      
      
     }
     #FAQ:target
     {
-        position: absolute;
-        z-index: 1;
-        display: block;
-        animation-name: about-item;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
+        @extend .about-item-display;
     }
     #Requisitos:target
     {
-        position: absolute;
-        z-index: 1;
-        display: block;
-        animation-name: about-item;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
+        @extend .about-item-display;
     }
     #Donaciones:target
     {
-        position: absolute;
-        z-index: 1;
-        display: block;
-        animation-name: about-item;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
+        @extend .about-item-display;
     }
-    // @keyframes about-item
-    // {
-    //     0%{opacity: 0%;}
-    //     100%{opacity: 100%;transition: ease-in;translate: 10px;}
-    // }
-    // @media (max-width:426px)
-    // {
-    //     .Nuestra-Historia-foto
-    //     {
-    //     display: none;
-    //     }  
-    // }    

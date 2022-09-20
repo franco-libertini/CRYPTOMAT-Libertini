@@ -1,5 +1,6 @@
 body
 {
+    
 width: 100vw;
 height: 100vh;
 background-image: url("/assets/bk1.jpg");
@@ -14,9 +15,41 @@ animation-duration: 300ms;
 overflow-x: hidden;
 animation-iteration-count: 1
 }
-// @keyframes intro_pag
-// {
-// 0%{opacity: 0%;}
-// 50%{opacity: 70%;}
-// 100%{opacity:100%;}
-// }
+
+//extends
+.animation-valores-fijos
+{
+    width: 7px;
+    height: 7px;
+    transition-delay: 0ms;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite
+}
+.animation-positivo
+{
+    border: 2px solid green;
+    color: green;
+}
+.animation-negativo
+{
+    border: 2px solid red;
+    color: red;
+}
+.intro-trade
+{
+    animation-name: intro-trade;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+.about-item-display
+{
+    position: absolute;
+    z-index: 1;
+    display: block;
+    animation-name: about-item;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}

@@ -1,16 +1,7 @@
 .login
 {
-    animation-name: intro-trade;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
+    @extend .intro-trade;
     width: 50vw;
     
     &-img{filter: invert(100%);}
 }
-// @media (max-width:321) 
-// {    .login-main
-//     {
-//         font-size: 1vw;
-//     } 
-// }

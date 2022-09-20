@@ -11,25 +11,6 @@
 }
 .form-trade
 {
-    animation-name: intro-trade;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
+@extend .intro-trade;
     width: 650px;
 }
-// @keyframes intro-trade
-// {
-//     0%{opacity: 0%;}
-    
-//     100%{opacity: 90%;}
-// }
-// @media (max-width:426px)
-// {    .lista-final
-//     {
-//     display: none;
-//     }  
-// }
-// @media (max-width:321) 
-// {
-//     .form-trade div{ font-size:xx-small}  
-// }

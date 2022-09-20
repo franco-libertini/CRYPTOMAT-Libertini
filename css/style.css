@@ -13,6 +13,36 @@ body {
   overflow-x: hidden;
   animation-iteration-count: 1; }
 
+.animation-valores-fijos, .crypto-grafico-p-1, .crypto-grafico-p-2, .crypto-grafico-p-3, .crypto-grafico-p-4, .crypto-grafico-p-5 {
+  width: 7px;
+  height: 7px;
+  transition-delay: 0ms;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite; }
+
+.animation-positivo, .crypto-grafico-p-1, .crypto-grafico-p-2, .crypto-grafico-p-4 {
+  border: 2px solid green;
+  color: green; }
+
+.animation-negativo, .crypto-grafico-p-3, .crypto-grafico-p-5 {
+  border: 2px solid red;
+  color: red; }
+
+.intro-trade, .menu-about, .login, .form-trade {
+  animation-name: intro-trade;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1; }
+
+.about-item-display, #FAQ:target, #Requisitos:target, #Donaciones:target {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  animation-name: about-item;
+  animation-duration: 1s;
+  animation-fill-mode: forwards; }
+
 header {
   opacity: 90%; }
 
@@ -80,55 +110,15 @@ footer {
     background-color: #312e2eba;
     border: 1px dashed grey; }
     .crypto-grafico-p-1 {
-      width: 7px;
-      height: 7px;
-      border: 2px solid green;
-      color: green;
-      animation-name: crypto-grafico-p-1;
-      transition-delay: 0ms;
-      animation-duration: 2s;
-      animation-fill-mode: forwards;
-      animation-iteration-count: infinite; }
+      animation-name: crypto-grafico-p-1; }
     .crypto-grafico-p-2 {
-      width: 7px;
-      height: 7px;
-      border: 2px solid green;
-      color: green;
-      animation-name: crypto-grafico-p-2;
-      transition-delay: 0ms;
-      animation-duration: 2s;
-      animation-fill-mode: forwards;
-      animation-iteration-count: infinite; }
+      animation-name: crypto-grafico-p-2; }
     .crypto-grafico-p-3 {
-      width: 7px;
-      height: 7px;
-      border: 2px solid red;
-      color: red;
-      animation-name: crypto-grafico-p-3;
-      transition-delay: 0ms;
-      animation-duration: 2s;
-      animation-fill-mode: forwards;
-      animation-iteration-count: infinite; }
+      animation-name: crypto-grafico-p-3; }
     .crypto-grafico-p-4 {
-      width: 7px;
-      height: 7px;
-      border: 2px solid green;
-      color: green;
-      animation-name: crypto-grafico-p-4;
-      transition-delay: 0ms;
-      animation-duration: 2s;
-      animation-fill-mode: forwards;
-      animation-iteration-count: infinite; }
+      animation-name: crypto-grafico-p-4; }
     .crypto-grafico-p-5 {
-      width: 7px;
-      height: 7px;
-      border: 2px solid red;
-      color: red;
-      animation-name: crypto-grafico-p-5;
-      transition-delay: 0ms;
-      animation-duration: 2s;
-      animation-fill-mode: forwards;
-      animation-iteration-count: infinite; }
+      animation-name: crypto-grafico-p-5; }
 
 .lista-final {
   width: fit-content;
@@ -165,35 +155,7 @@ footer {
   animation-duration: 2s;
   animation-fill-mode: forwards; }
 
-#FAQ:target {
-  position: absolute;
-  z-index: 1;
-  display: block;
-  animation-name: about-item;
-  animation-duration: 1s;
-  animation-fill-mode: forwards; }
-
-#Requisitos:target {
-  position: absolute;
-  z-index: 1;
-  display: block;
-  animation-name: about-item;
-  animation-duration: 1s;
-  animation-fill-mode: forwards; }
-
-#Donaciones:target {
-  position: absolute;
-  z-index: 1;
-  display: block;
-  animation-name: about-item;
-  animation-duration: 1s;
-  animation-fill-mode: forwards; }
-
 .login {
-  animation-name: intro-trade;
-  animation-duration: 4s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: 1;
   width: 50vw; }
   .login-img {
     filter: invert(100%); }
@@ -210,10 +172,6 @@ footer {
   background-color: rgba(85, 84, 84, 0.616); }
 
 .form-trade {
-  animation-name: intro-trade;
-  animation-duration: 4s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: 1;
   width: 650px; }
 
 @keyframes intro_pag {
