@@ -158,12 +158,25 @@
     .lista-final
     {
     display: none;
+    
     }  
+    .texto-about
+    {
+        display: grid;
+        grid-template-columns:auto;
+    }
+    .menu-about-list
+    {
+        display: flex;
+        flex-direction: column;
+    }
+  
 }    
 @media (max-width:321) 
 {    .login-main
     {
         font-size: 1vw;
     } 
-    .form-trade div{ font-size:xx-small}  
+    .form-trade div{ font-size:xx-small} 
+    
 }

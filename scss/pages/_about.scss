@@ -14,7 +14,15 @@
         transform-origin: bottom right;
         transition: transform 0.50s ease-out;}
 }
-  
+.Nuestra-Historia-foto
+{
+    border-radius: 50px;
+    border-color: bisque;
+}
+.about-requisitos li
+{
+    border: none;
+}
   .menu-about:hover:after 
     {  
     transform: scaleX(1);
@@ -50,3 +58,4 @@
     {
         @extend .about-item-display;
     }
+   

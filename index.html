@@ -8,6 +8,9 @@
     <meta name="keywords" content="compra, vende, cryptos, rendimientos, automatico, suscripcion, trade, CRYPTOMAT">
     <link rel="icon" type="image/x-icon" href="./assets/633px-Cryptocurrency_Logo.svg.png">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
@@ -77,14 +80,14 @@
     <!-- main -->
 
 
-    <main class=" mt-5 mb-4" >
+    <main class=" mt-5 mb-4 px-1" >
       <section class="row d-flex justify-content-center">
         <div class="display-1 text-light text-center"><h1 class="display-1"><b>CRYPTOMAT</b></h1></div>
         <div class="text-light text-center"><p class="display-5">La forma mas sencilla de involucrarse en el mundo de las cryptomonedas,liberate de las dudas y las presiones de estar atento solo inverti tu capital y que comienze tu aventura en el emocionante mundo de las crypto.</p></div>
 
       
-        <div class="col-md-1">
-          <a  href="./pages/about.html"><button type="button" style="font-size: xx-large;height: auto;" class="boton-masinfo mb-5 btn text-bg-dark mb-2">saber mas</button></a>
+        <div class="col-auto">
+          <a href="./pages/about.html"><button type="button" style="font-size: xx-large;height: auto;" class="boton-masinfo mb-5 btn text-bg-dark">saber mas</button></a>
         </div>
       </section>
       <section class="img-txt row d-flex justify-content-center mb-5" >
@@ -120,17 +123,17 @@
       </section>
 
       <section class="row">
-        <div class="crypto col ">
-          <!--en valor de resolucion por debajo del 700 esconder de la lista todo menos, nombre alza o baja y el boton-->
-        <div class="crypto-contenedor ">
+        <div class="crypto col">
+        
+        <div class="crypto-contenedor container-fluid">
           <div class="crypto-nombre text-white lead">BITCOIN <small class="text-muted">BTC</small></div>
           <div class="crypto-valor-actual">24.598,6</div>
           <div class="crypto-alza-baja">+2.59</div>
           <div class="crypto-grafico d-none d-md-block"><p class="crypto-grafico-p-1"></p></div>
           <div class="crypto-valor-total lead text-light d-none d-md-block">24.522.554$</div>
-          <div class="crypto-boton"><button type="button" class="btn btn-dark bg-dark ms-4"><a class="text-decoration-none text-info bg-dark" href="./pages/trade.html">trade</a></button></div>
+          <div class="crypto-boton "><button type="button" class="btn btn-dark bg-dark ms-4"><a class="text-decoration-none text-info bg-dark" href="./pages/trade.html">trade</a></button></div>
         </div>
-        <div class="crypto-contenedor">
+        <div class="crypto-contenedor container-fluid">
           <div class="crypto-nombre text-white lead">ETHERIUM <small class="text-muted">eth</small></div>
           <div class="crypto-valor-actual">15.238,3</div>
           <div class="crypto-alza-baja">+1.39</div>
@@ -138,7 +141,7 @@
           <div class="crypto-valor-total lead text-light d-none d-md-block">15.468.455$</div>
           <div class="crypto-boton"><button type="button" class="btn btn-dark bg-dark ms-4"><a class="text-decoration-none text-info bg-dark" href="./pages/trade.html">trade</a></button></div>
         </div>
-        <div class="crypto-contenedor">
+        <div class="crypto-contenedor container-fluid">
           <div class="crypto-nombre text-white lead">DODGE <small class="text-muted">DGE</small></div>
           <div class="crypto-valor-actual">09.598,6</div>
           <div class="crypto-alza-baja text-danger">-0.59</div>
@@ -146,7 +149,7 @@
           <div class="crypto-valor-total lead text-light d-none d-md-block">05.522,54$</div>
           <div class="crypto-boton"><button type="button" class="btn btn-dark bg-dark ms-5"><a class="text-decoration-none text-info bg-dark" href="./pages/trade.html">trade</a></button></div>
         </div>
-        <div class="crypto-contenedor">
+        <div class="crypto-contenedor container-fluid">
           <div class="crypto-nombre text-white lead">USDT <small class="text-muted">USDT</small></div>
           <div class="crypto-valor-actual">24.122,6</div>
           <div class="crypto-alza-baja">+1.29</div>
@@ -154,7 +157,7 @@
           <div class="crypto-valor-total lead text-light d-none d-md-block">24.234.437$</div>
           <div class="crypto-boton"><button type="button" class="btn btn-dark bg-dark ms-5"><a class="text-decoration-none text-info bg-dark" href="./pages/trade.html">trade</a></button></div>
         </div>
-        <div class="crypto-contenedor">
+        <div class="crypto-contenedor container-fluid">
           <div class="crypto-nombre text-white lead">LUNARA <small class="text-muted">LUN</small></div>
           <div class="crypto-valor-actual">01.008,6</div>
           <div class="crypto-alza-baja text-danger">-4.59</div>
@@ -162,6 +165,7 @@
           <div class="crypto-valor-total lead text-light d-none d-md-block">000.225,4$</div>
           <div class="crypto-boton"><button type="button" class="btn btn-dark bg-dark ms-5"><a class="text-decoration-none text-info bg-dark" href="./pages/trade.html">trade</a></button></div>
         </div>
+      </div>
       </section>
       
 
@@ -176,7 +180,7 @@
     <footer class="bg-dark text-center text-white ">
 
 
-      <div class="container p-4">
+      <div class="bg-dark container p-4">
 
         <section class="mb-4">
 
