@@ -3,6 +3,18 @@
 @include dimension(50px,250px);
 
 }
+.login
+{
+    @extend .intro-trade;
+    width: 50vw;
+    
+    
+    &-img
+    {
+        filter: invert(100%);
+        @include dimension(10%,10%);
+    }
+}
 
 
 

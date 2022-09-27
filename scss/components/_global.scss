@@ -16,12 +16,23 @@ animation-duration: 300ms;
 overflow-x: hidden;
 animation-iteration-count: 1
 }
+.nodal-login
+{
+cursor: pointer;
+}
+
 h1
 {
     text-decoration:underline;
     opacity: 70%;
     color: white;
+    
 }
+.div-tit
+{
+    position: relative;z-index: -1;
+}
+
 // //extends
 
 .intro-trade
@@ -71,4 +82,6 @@ $palette:
 "about":#0087ca,
 "trade":rgba(85, 84, 84, 0.616),
 "borderb":#696868
-);
+)
+
+

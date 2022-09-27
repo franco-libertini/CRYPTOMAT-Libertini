@@ -16,21 +16,53 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
     <title>CRYPTOMAT - suscripcion</title>
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                          <div class="modal-dialog">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <h5 class="modal-title display-5" id="exampleModalLabel">solicitud recibida</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                              </div>
-                              <div class="modal-body lead ">
-                                un representante se contactara con usted a la brevedad
-                              </div>
-                            </div>
-                          </div>
+                   <!-- Modal 1 - contacto-->
+                   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title display-5" id="exampleModalLabel">solicitud recibida</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <!--fin del Modal -->
+                        <div class="modal-body lead ">
+                          un representante se contactara con usted a la brevedad
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Modal 2 - login -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title lead " id="staticBackdropLabel"><img class="login-img img-fluid me-2 img-thumbnail rounded mx-auto rounded-circle" src="../assets/633px-Cryptocurrency_Logo.svg.png" alt=""> ingresar</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      
+                      <form action="./pages/trade.html">
+                        <div class="form-floating mb-3">
+                          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                          <label for="floatingInput">email</label>
+                        </div>
+                        <div class="form-floating">
+                          <input type="password" class="form-control mb-5" id="floatingPassword" placeholder="Password" required>
+                          <label for="floatingPassword">contraseña</label>
+                        </div>
+                        <div>
+                        
+                        </div>
+                      
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-primary mt-6 mb-3 mx-auto d-block" type="submit">ingresar</button>
+                  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+                  <!--fin del Modal -->
 </head>
 
 <body class="container-fluid overflowx-hidden overflowy-scroll">
@@ -40,48 +72,51 @@
 
 
                     <header class="container-fluid shadow-lg p-3 mb-5 bg-body rounded bg-opacity-50" >
-            <nav class="navbar navbar-expand-lg bg-light">
-                <div class="container-fluid">
-                    <a  href="../index.html"><img class="header_img rounded-5" src="../assets/github-logo.jpg" alt="github-logo"></a>
-                  <a class="navbar-brand" href="../index.html">CRYPTOMAT <small class="text-muted">subscribe</small></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../index.html"><i id="home" class="bi bi-house"></i></a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link " href="../pages/subscribe.html">Subscribe</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          menu
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="../pages/about.html">about</a></li>
-                          <li><a class="dropdown-item" href="../pages/trade.html">trade</a></li>
-                          <li><a class="dropdown-item" href="../pages/login.html">login</a></li>
-                        </ul>
-                      </li>
-
-                    </ul>
-                    <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                  </div>
-                </div>
-              </nav>
-        </header>
+                      <nav class="navbar navbar-expand-lg bg-light">
+                          <div class="container-fluid">
+                              <a  href="../index.html"><img class="header_img rounded-5" src="../assets/633px-Cryptocurrency_Logo.svg.png" alt="github-logo"></a>
+                            <a class="navbar-brand" href="../index.html">CRYPTOMAT<small class="text-muted">about</small></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="../index.html"><i id="home" class="bi bi-house "></i></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nodal-login nav-link" data-bs-toggle="modal" data-bs-target="#staticBackdrop">ingresar</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    menu
+                                  </a>
+                                  <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../pages/about.html">about</a></li>
+                                    <li><a class="dropdown-item" href="../pages/trade.html">trade</a></li>
+                                    <li><a class="dropdown-item" href="../pages/subscribe.html">Subscribe</a></li>
+                                  </ul>
+                                </li>
+          
+                              </ul>
+                              <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                              </form>
+                            </div>
+                          </div>
+                        </nav>
+                  </header>
 
 
     <!-- main -->
 
 
     <main class="row d-flex justify-content-center" >
-      <h1 class="display-4 lead">Suscribete a CRYPTOMAT!</h1>
+      <div class="div-tit">
+        <h1 class="display-4 lead" >Suscribete a CRYPTOMAT!</h1>
+      </div>
+      
       <form class="subscribe-form card col-md-6 mt-5 text-bg-dark rounded-4" action="../pages/login.html">
         
       
