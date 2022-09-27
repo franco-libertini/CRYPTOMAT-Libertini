@@ -41,6 +41,34 @@
     padding: 2px;
     opacity: 50%;
 }
+.iphone
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+    
+    &-img
+    {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        div:hover {
+             transform:
+            perspective(60em)
+            rotateX(18deg);
+            filter:drop-shadow(rgba(22, 31, 39, 0.42) ,
+            rgba(19, 26, 32, 0.08) 0px 35px 75px -35px);
+            animation-name: iphone;
+            animation-duration: 1s;
+              animation-fill-mode: both;
+            
+          }
+    }
+}
+
 .crypto
 {
     background-color: map-get($map:$palette, $key:"fondo");

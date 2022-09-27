@@ -14,22 +14,29 @@
         transform-origin: bottom right;
         transition: transform 0.50s ease-out;}
 }
+.menu-about:hover:after 
+{  
+transform: scaleX(1);
+transform-origin: bottom left;
+}
+
+.about-cont
+{
+    @include dimension(100vh,100vw);
+    background-color: whitesmoke;
+    border-radius: 10px;
+    position: relative;
+    z-index:-1 ;
+}
+
 .Nuestra-Historia-foto
 {
     border-radius: 50px;
     border-color: bisque;
 }
-.about-requisitos li
-{
-    border: none;
-}
-  .menu-about:hover:after 
-    {  
-    transform: scaleX(1);
-    transform-origin: bottom left;
-    }
 
-    .item-about
+
+.item-about
     {
         display:none;
        z-index: -1;
@@ -37,24 +44,19 @@
 
     #Nuestra-Historia:target
     {
-       
+        
         z-index: 1;
       display: block;
       animation-name: about-item;
       animation-duration: 2s;
       animation-fill-mode: forwards;
-      
-     
     }
+    
     #FAQ:target
     {
         @extend .about-item-display;
     }
     #Requisitos:target
-    {
-        @extend .about-item-display;
-    }
-    #Donaciones:target
     {
         @extend .about-item-display;
     }
