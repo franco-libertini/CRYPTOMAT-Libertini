@@ -31,38 +31,64 @@
                     </div>
                   </div>
                   <!-- Modal 2 - login -->
-                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title lead " id="staticBackdropLabel"><img class="login-img img-fluid me-2 img-thumbnail rounded mx-auto rounded-circle" src="../assets/633px-Cryptocurrency_Logo.svg.png" alt=""> ingresar</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
+                  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title lead " id="staticBackdropLabel"><img class="login-img img-fluid me-2 img-thumbnail rounded mx-auto rounded-circle" src="../assets/633px-Cryptocurrency_Logo.svg.png" alt="crypto logo"> ingresar</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          
+                          <form action="../pages/trade.html">
+                            <div class="form-floating mb-3">
+                              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                              <label for="floatingInput">email</label>
+                            </div>
+                            <div class="form-floating">
+                              <input type="password" class="form-control mb-5" id="floatingPassword" placeholder="Password" required>
+                              <label for="floatingPassword">contraseña</label>
+                            </div>
+                            <div>
+                               
+                               <div class="text-center">
+                          <p>Not a member?
+                            <a href="../pages/subscribe.html">Register</a>
+                            </p>
+                          </div>
+                          
+                          <div class="text-center">
+                            <p>or sign in with:</p>
+                
+                                <a href="https://www.facebook.com/" class="mx-1" role="button" target="_blank"><i class="bi bi-facebook"></i></a>
+                                <a href="https://twitter.com/home" class="mx-1" role="button" target="_blank"><i class="bi bi-twitter"></i></a>
+                                <a href="https://www.linkedin.com/feed/" class="mx-1" role="button" target="_blank"><i class="bi bi-linkedin"></i></a>
+                          </div>
+                          </div>
+  
+                         
+                          
+                        </div>
+                        <div class="modal-footer">
+                          <button class="btn btn-primary mt-6 mb-3 mx-auto d-block" type="submit">ingresar</button>
                       
-                      <form action="./pages/trade.html">
-                        <div class="form-floating mb-3">
-                          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
-                          <label for="floatingInput">email</label>
                         </div>
-                        <div class="form-floating">
-                          <input type="password" class="form-control mb-5" id="floatingPassword" placeholder="Password" required>
-                          <label for="floatingPassword">contraseña</label>
-                        </div>
-                        <div>
-                        
-                        </div>
-                      
-                    </div>
-                    <div class="modal-footer">
-                      <button class="btn btn-primary mt-6 mb-3 mx-auto d-block" type="submit">ingresar</button>
-                  
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div>
-            </form>
-                  <!--fin del Modal -->
+                </form>
+                      <!--fin del Modal -->
+
+                      <!-- Modal 3 - trade -->
+                      <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                              <iframe id="player" class="embed-responsive-item" src="https://www.youtube.com/embed/7MUISDJ5ZZ4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
 </head>
 
 <body class="container-fluid overflowx-hidden overflowy-scroll">
@@ -118,57 +144,74 @@
         <h1 class="display-5 lead strong text-light mb-5 text-center" >CRYPTOMAT TRADING</h1>
       </div>
       
-  <div class="col">
-      <div class="lista-final row ms-5">
-        <h2 class="mt-5 mb-4 display-5 text-light">Es muy sencillo: 
+      <div class="container card z-depth-1 my-5 pt-5 pb-3 px-5">
+        <section>
+         
           
-          <div class="col">
-          <ol class="row list-trade list-group list-group-numbered " >
-            <!----------------------->
-            <li class="list-group-item lead">
-              <p class="shadow p-3">
-                <a class="btn " data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                  Selecciona las cryptos que sientas van a ser las mas favorables.
-                </a>
-              </p>
-              <div class="collapse" id="collapseExample">
-                <div class="card card-body fw-semibold font-monospace">
-                  Selecciona las cryptos que creas van a ser las mas redituables, nuestro algoritmo va a asegurarse de tomar las mejores decisiones para asegurarse de que tu inversion se mantenga o crezca
+      
+          <h3 class="font-weight-bold text-center dark-grey-text pb-2">Es muy sencillo:</h3>
+          <hr class="w-header my-4">
+          <p class="lead text-center text-muted pt-2 mb-5">Aprende a tradear con cryptos en menos de 2 minutos.</p>
+      
+          <div class="row align-items-center">
+      
+            <div class="col-lg-6 mb-4">
+              <div class="view z-depth-1-half rounded">
+                <iframe class="ratio ratio-16x9" width="550px" height="450px" src="https://www.youtube.com/embed/q7c9yFpA_iM" title="How to Buy Crypto via KuCoin Fiat Account on APP?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="mask flex-center rgba-black-light">
+                  <a id="play" class="btn-floating btn-primary btn-lg" data-toggle="modal" data-target="#modal1"><i class="fas fa-play"></i></a>
                 </div>
               </div>
-            </li>
-              <!----------------------->
-              <li class="list-group-item lead ">
-                <p class="shadow p-3">
-                  <a class="btn " data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
-                    Predispone los valores para la compra/venta automatica.
-                  </a>
-                </p>
-                <div class="collapse" id="collapseExample1">
-                  <div class="card card-body fw-semibold font-monospace">
-                    Todo funciona en base a tus predisposiciones, nuestro sistema se asegura de tener limites establecidos por los usuarios, de modo que si crees que una crypto va a subir y no te asusta tener perdidas temporales, puedes setear los valores de venta en el punto que te parezca.
-                 </div>
-                </div>
-              </li>
-              <!----------------------->
-              <li class="list-group-item lead">
-                <p class="shadow p-3">
-                  <a class="btn " data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
-                    Ingresa tus datos de facturacion.
-                  </a>
-                </p>
-                <div class="collapse" id="collapseExample2">
-                  <div class="card card-body fw-semibold font-monospace">
-                    Nuestra pagina cuenta con el respaldo de los bancos de uso cotidiano mas grandes del planeta, con tu tarjeta ya sea de debito o de credito puedes setear un monto diario de inversion para seguir comprando cryptos o puedes basarte en inversiones individuales de cualquier te damos la garantia de que tu inversion nunca se va a perder.
+            </div>
+      
+            <div class="col-lg-6 mb-4">
+      
+              <ol class="step pl-0">
+                <li class="step-element pb-0">
+                  <div class="step-number">
+                    <span class="number">1</span>
                   </div>
-                </div>
-              </li>
-              <!----------------------->
-          <li class="list-group-item lead shadow p-3 ">Por ultimo relajate con la certeza de que nuestro algoritmo vende cuando es necesario y compra cuando mas te conviene.</li>
-        </ol></i></h2>
+                  <div class="step-excerpt">
+                    <h6 class="font-weight-bold dark-grey-text mb-3">Selecciona las cryptos</h6>
+                    <p class="text-muted">Selecciona las cryptos que creas van a ser las mas redituables, nuestro algoritmo va a asegurarse de tomar las mejores decisiones para asegurarse de que tu inversion se mantenga o crezca.</p>
+                  </div>
+                </li>
+                <li class="step-element pb-0">
+                  <div class="step-number">
+                    <span class="number">2</span>
+                  </div>
+                  <div class="step-excerpt">
+                    <h6 class="font-weight-bold dark-grey-text mb-3">Predispone los valores para la compra/venta automatica</h6>
+                    <p class="text-muted">Todo funciona en base a tus predisposiciones, nuestro sistema se asegura de tener limites establecidos por los usuarios, de modo que si crees que una crypto va a subir y no te asusta tener perdidas temporales, puedes setear los valores de venta en el punto que te parezca.</p>
+                  </div>
+                </li>
+                <li class="step-element pb-0">
+                  <div class="step-number">
+                    <span class="number">3</span>
+                  </div>
+                  <div class="step-excerpt">
+                    <h6 class="font-weight-bold dark-grey-text mb-3">Ingresa tus datos de facturacion</h6>
+                    <p class="text-muted">Nuestra pagina cuenta con el respaldo de los bancos de uso cotidiano mas grandes del planeta, con tu tarjeta ya sea de debito o de credito puedes setear un monto diario de inversion para seguir comprando cryptos o puedes basarte en inversiones individuales de cualquier te damos la garantia de que tu inversion nunca se va a perder.</p>
+                  </div>
+                </li>
+                <li class="step-element pb-0">
+                  <div class="step-number">
+                    <span class="number">4</span>
+                  </div>
+                  <div class="step-excerpt">
+                    <h6 class="font-weight-bold dark-grey-text mb-3">Todo listo!</h6>
+                    <p class="text-muted">Relajate con la certeza de que nuestro algoritmo vende cuando es necesario y compra cuando mas te conviene.</p>
+                  </div>
+                </li>
+              </ol>
+      
+            </div>
+      
+          </div>
+          
+        </section>
       </div>
-
-
+      
       <section class="row mt-5 container-fluid">
         <form class="form-trade card ms-5 text-bg-dark container-fluid">
         <div class="row mb-3 mt-3 ">
