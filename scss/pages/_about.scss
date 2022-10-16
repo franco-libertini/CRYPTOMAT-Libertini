@@ -1,63 +1,29 @@
-.menu-about
+#Nuestros-fundadores
 {
-    @extend .intro-trade;
-    display: inline-block;
-    position: relative;
-    color: #0087ca;
-    &:after{    content: '';
-        position: absolute;
-        transform: scaleX(0);
-        @include dimension(2px,100%);
-        bottom: 0;
-        left: 0;
-        background-color: #0087ca;
-        transform-origin: bottom right;
-        transition: transform 0.50s ease-out;}
+    margin-top: 200px; 
 }
-.menu-about:hover:after 
-{  
-transform: scaleX(1);
-transform-origin: bottom left;
-}
-
-.about-cont
+#fundadores
 {
-    @include dimension(100vh,100vw);
-    background-color: whitesmoke;
-    border-radius: 10px;
-    position: relative;
-    z-index:-1 ;
+height: 250px;
+width: 300px;
+box-shadow: 0px 0px 3px 0px;
 }
-
+#Nuestra-Historia
+{
+    margin-top: 200px;
+}
+#preguntas-frecuentes
+{
+    margin-top: 200px;
+}
 .Nuestra-Historia-foto
 {
     border-radius: 50px;
     border-color: bisque;
 }
-
-
-.item-about
-    {
-        display:none;
-       z-index: -1;
-    }
-
-    #Nuestra-Historia:target
-    {
-        
-        z-index: 1;
-      display: block;
-      animation-name: about-item;
-      animation-duration: 2s;
-      animation-fill-mode: forwards;
-    }
+#requisitos
+{
+    margin-top: 200px;
     
-    #FAQ:target
-    {
-        @extend .about-item-display;
-    }
-    #Requisitos:target
-    {
-        @extend .about-item-display;
-    }
-   
+}
+

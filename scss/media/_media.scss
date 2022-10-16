@@ -165,7 +165,10 @@
         @include dimension(100%,100%);
       
     }  
-
+    #Nuestros-fundadores
+    {
+        flex-direction: column;
+    }
 }
 
 @media (max-width:426px)
